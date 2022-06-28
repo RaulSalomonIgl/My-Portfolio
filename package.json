@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Web portfolio of Raul Arturo Salomon Iglesias",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest",
+    "test_exp": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulSalomonIgl/My-Portfolio.git"
+  },
+  "keywords": [
+    "RaulSalomonIgl"
+  ],
+  "author": "RaulSalomonIgl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulSalomonIgl/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/RaulSalomonIgl/My-Portfolio#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
