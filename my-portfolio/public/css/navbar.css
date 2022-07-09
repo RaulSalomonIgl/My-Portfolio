@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+body{
+    background: #0F1317;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: #1D2125;
+    height: 8vh;
+    padding: 0;
+}
+.navbar-nav{
+    padding: 0;
+}
+.nav-item{
+    padding: 0 5vh;
+    width: 25vh;
+    text-align: center;
+}
+.nav-link{
+    color: #363638;
+    font-size: 1.3em;
+}
+
+    .nav-link:hover{
+        color: #AD9069;
+        font-size: 1.5em;
+    }
+    .nav-link.router-link-exact-active{
+        border-top: 1px solid #556265;
+        border-bottom: 1px solid #556265;
+        color: #AD9069;
+        font-size: 1.5em;
+    }
+
+.btn-navbar-toggler{
+    margin-right: 5vh;
+    background: none;
+    border: none;
+    color: #AD9069;
+    font-size: 2.3em;
+    font-weight: 100;
+}
