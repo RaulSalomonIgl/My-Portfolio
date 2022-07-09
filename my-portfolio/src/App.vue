@@ -1,30 +1,41 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+
+  <!-- Navigation section -->
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <div class="navbar-content">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <router-link to="/" class="nav-link" aria-current="page">Home</router-link>
+          </li>
+          
+          <li class="nav-item">
+            <router-link to="/about" class="nav-link">About me</router-link>
+          </li>
+          
+          <li class="nav-item">
+            <router-link to="/work" class="nav-link">Work</router-link>
+          </li>
+
+          <li class="nav-item">
+            <router-link to="/contact" class="nav-link">Contact</router-link>
+          </li>
+
+        </ul>
+      </div>
+
+      <button class="btn-navbar-toggler" type="button">
+        <span class="bi bi-list"></span>
+      </button>
+
+    </div>
   </nav>
+
+
   <router-view/>
 </template>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
